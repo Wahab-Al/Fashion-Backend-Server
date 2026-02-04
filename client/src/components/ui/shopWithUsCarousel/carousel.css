@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box !important;
+}
+
+*{
+    margin: 0;
+}
+
+.Shop-with-us-title {
+    color: rgb(255, 123, 0) !important
+}
+
+.wrapper{
+    margin-inline: auto;
+    position: relative;
+    height: 105px;
+    margin-top: 2rem;
+    overflow: hidden !important;
+    mask-image: linear-gradient(to right,
+        rgba(0,0,0,0),
+        rgba(0,0,0,1) 20%,
+        rgba(0,0,0,1) 80%,
+        rgba(0, 0, 0, 0),
+    ) !important;
+
+    -webkit-mask-image: linear-gradient(
+        to right,
+        rgba(0,0,0,0),
+        rgba(0,0,0,1) 10%,
+        rgba(0,0,0,1) 90%,
+        rgba(0,0,0,0)
+    ) !important;
+}
+
+.carousel-card{
+    width: 200px;
+    height: 100px;
+    border-radius: 6px;
+    position: absolute;
+    left: max(calc(200px * 7), 100%);
+    animation: scrollCarousel 30s linear infinite;
+    animation-delay: -15s;
+}
+
+.carousel-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+@keyframes scrollCarousel {
+    to{ 
+        left: -200px;
+    }
+}
+
+.item1{
+    animation-delay: calc((30s / 7) * (7 - 1) * -1);
+}
+
+.item2{
+    animation-delay:  calc(30s / 7 * (7 - 2) * -1);
+}
+
+.item3{
+    animation-delay:  calc(30s / 7 * (7 - 3) * -1);
+}
+
+.item4{
+    animation-delay:  calc(30s / 7 * (7 - 4) * -1);
+}
+
+.item5{
+    animation-delay:  calc(30s / 7 * (7 - 5) * -1);
+}
+
+.item6{
+    animation-delay:  calc(30s / 7 * (7 - 6) * -1);
+}
+
+.item7{
+    animation-delay:  calc(30s / 7 * (7 - 7) * -1);
+}

@@ -1,0 +1,36 @@
+.promo-videos {
+  border-radius: 30px 0 30px 0;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  box-shadow: 1px 1px 12px rgba(255, 99, 71, 0.616);
+}
+
+.promo-videos::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.582);
+  z-index: 3;
+}
+
+.promo-title {
+  position: absolute;
+  top: 40%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  z-index: 4;
+  color: #c4c3c3;
+  font-family: 'Playfair Display', serif;
+}
+
+@media (max-width: 422px) {
+  .promo-title {
+    font-size: small !important;
+  }
+}

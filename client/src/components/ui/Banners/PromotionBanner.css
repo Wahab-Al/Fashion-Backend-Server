@@ -1,0 +1,12 @@
+.promotion-div {
+  background-color: rgba(231, 231, 231, 0.288) !important;
+}
+.discount {
+  color: rgb(255, 123, 0) !important
+}
+
+@media (max-width: 448px) {
+  .promotionImgDiv{
+    display: none;
+  }
+}

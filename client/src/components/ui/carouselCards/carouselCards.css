@@ -1,0 +1,133 @@
+.pic {
+    flex-shrink: 0 !important;
+    cursor: pointer;
+}
+
+.cardCarousel {
+    height: 300px !important;
+    display: flex;
+}
+
+.bigImg-container {
+    height: 100% !important;
+    /* overflow: hidden !important; */
+}
+
+.bigImg-container img{
+    height: 100% !important;
+    object-fit: cover!important;
+}
+
+.small-Img-container {
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.secondary-pics {
+    flex: 1 !important; 
+    height: 33.33% !important; 
+    overflow: hidden !important;
+}
+
+.secondary-pics img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important; 
+}
+
+@media (max-width: 767px) {
+    .cardCarousel {
+        height: 350px !important; 
+    }
+
+    .bigImg-container {
+        overflow: hidden !important;
+        max-height: 60% !important;
+    }
+
+    .bigImg-container img {
+        object-fit: cover !important;
+        object-position: top !important;
+    }
+    
+    .small-Img-container {
+        width: 100% !important;
+        height: 120px !important; 
+        flex-direction: row !important; 
+    }
+
+    .secondary-pics {
+        height: 100% !important;
+        width: 33.33% !important; 
+        border-left: none;
+        border-top: 2px solid #fff;
+        border-right: 1px solid #fff;
+    }
+
+    .secondary-pics img {
+        height: 100% !important;
+        width: 100% !important;
+    }
+}
+
+.Carousel-cards-title {
+    color: rgb(255, 123, 0) !important    
+}
+
+.container{
+    position: relative;
+}
+
+.card-container{
+    z-index: 0;
+}
+
+.arrow-left img, .arrow-right img{
+    width: 1.5em !important;
+    height: 1.5em !important;
+    border: 1px solid #858484;
+    border-radius: 50%;
+}
+
+.arrow-left img{
+    position: absolute;
+    left: -15px;
+    top: 48%;
+    z-index: 2;
+}
+
+.arrow-right img{
+    position: absolute;
+    right: -15px;
+    top: 48%;
+    z-index: 2;
+}
+
+@media (max-width: 575px) {
+    .arrow-right img {
+        right: 10px; 
+        top: 40%;   
+    }
+
+    .arrow-left img  {
+        left: 10px;
+        top: 40%;
+    }
+}
+
+.arrow-left:hover, .arrow-right img:hover {
+    cursor: pointer !important;
+}
+
+.card {
+    overflow: hidden;
+}
+.carousel-card-img-big, .carousel-card-img-small{
+    transform: scale(1);
+}
+
+.carousel-card-img-big:hover, .carousel-card-img-small:hover{
+    transform: scale(1.2);
+    transition: .3s ease-in-out;
+}

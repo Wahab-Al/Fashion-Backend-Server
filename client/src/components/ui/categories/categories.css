@@ -1,0 +1,43 @@
+@media (max-width:768px) {
+    .categories img{
+        width: 80px !important;
+        height: 80px !important;
+    }
+}
+
+.categories-title {
+    color: rgb(255, 123, 0) !important
+}
+
+.categories img {
+    border-radius: 50%;
+}
+
+.category-img {
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+.category-h6 {
+    margin-top: 5px !important;
+    text-align: center !important;
+}
+
+.categories {
+    cursor: pointer;
+    perspective: 1000px;
+}
+
+.categories div img {
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    transform-style: preserve-3d;
+    border-radius: 9px;
+}
+
+
+.categories div img:hover {
+    box-shadow: 1px 1px 9px tomato;
+    transform: translate3d(1.2px);
+    transition: all ease-in-out .4s;
+    transform: translateZ(-20px) rotateX(15deg) rotateY(-20deg);
+}

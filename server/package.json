@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "Node.js Express backend for Fashion Store, providing secure Stripe payment integration and order management API.",
+  "keywords": [
+    "ecommerce",
+    "fashion-frontstore",
+    "fashion",
+    "stripe-payments",
+    "nodejs",
+    "express",
+    "react",
+    "web-development",
+    "secure-checkout"
+  ],
+  "license": "MIT",
+  "author": "wahab",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "test": " \"echo \\\"No tests yet\\\"\""
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "stripe": "^20.3.0"
+  },
+  "devDependencies": {}
+}

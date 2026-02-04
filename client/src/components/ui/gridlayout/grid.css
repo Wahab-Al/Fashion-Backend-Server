@@ -1,0 +1,101 @@
+
+.most-bought {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 130px) !important;
+    gap: 8px;
+    max-width: 1150px;
+    overflow: hidden;
+}
+    
+@media (min-width:768px) and (max-width: 991px) {
+    .most-bought {
+        grid-template-rows: repeat(5, 100px) !important;
+    }
+}
+/* .most-bought:hover{
+    cursor: pointer;
+} */
+
+.title-span {
+    color: rgb(255, 123, 0) !important
+}
+
+.title {
+    grid-column: span 3 / span 3;
+    transform: scale(.8)
+}
+
+.first-most-bought {
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    transform: scale(.8)
+}
+
+.second-most-bought {
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    cursor: pointer;
+}
+
+.third-most-bought {
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    transform: scale(.8)
+}
+
+.fourth-most-bought {
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    transform: scale(.8);
+    position: relative;
+}
+
+.fifth-most-bought {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-row-start: 4;
+    transform: scale(.8);
+    position: relative;
+}
+.title:hover,
+.fourth-most-bought:hover {
+    cursor: pointer;
+    transform: scale(.8);
+    transition: .6s ease-in-out;
+}
+
+.first-most-bought:hover, 
+.third-most-bought:hover, 
+.fifth-most-bought:hover{
+    transform: scale(1);
+    transition: .6s ease-in-out;
+    cursor: pointer;
+}
+
+.fourth-most-bought::after, .fifth-most-bought::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fifth-most-bought::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    background-color: rgba(158, 158, 158, 0);
+}
