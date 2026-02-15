@@ -1,5 +1,5 @@
-# Fashion -Backend-server: 🛍️👗
-**Fashion-Backend-server** Node.js and Express.js backend that serves as a dedicated API gateway for Stripe payment integration.
+# Fashion-Payment-Gateway: 🛍️👗
+**Fashion-Payment-Gateway** Node.js and Express.js backend that serves as a dedicated API gateway for Stripe payment integration.
 
 ---
 
@@ -29,7 +29,7 @@
  [https://fashion-storefront.netlify.app](https://fashion-storefront.netlify.app)
 
 
-* **API Server:** 
+* **Stripe API Server:** 
 
 [https://fashion-server-production.up.railway.app](https://fashion-server-production.up.railway.app)
 
@@ -42,10 +42,7 @@ MIT License
 ## Installation: 
 Clone the repository:
 ```bash
-git clone https://github.com/Wahab-Al/Fashion-backend-server.git
-
-## Navigate to the project directory: 📂
-cd Fashion-Backend-Server
+git clone https://github.com/Wahab-Al/Fashion-Payment-Gateway.git
 
 ## Run the application: ▶️
 npm install
