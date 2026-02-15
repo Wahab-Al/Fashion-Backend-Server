@@ -14,10 +14,6 @@
 [![dotenv](https://img.shields.io/badge/dotenv-Environment_Variables-yellow?logo=dotenv&logoColor=black)](https://github.com/motdotla/dotenv)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232088FF.svg?style=flat-square&logo=githubactions&logoColor=white)
 
-
-## Soon:
-[![Docker](https://img.shields.io/badge/docker-coming_soon-2496ED?style=flat-square&logo=docker)](https://www.docker.com/)
-
 ### 🚀 Overview
 This is a standalone **Node.js & Express.js** backend engineered to handle secure payment processing. It acts as a dedicated payment handler for the **Fashion Store** ecosystem, ensuring a clean separation of concerns and high reusability.
 
