@@ -64,6 +64,6 @@ git clone https://github.com/Wahab-Al/Fashion-Payment-Gateway.git
 ## Run the application: ▶️
 npm install
 
-# Create a .env file and add your VITE_STRIPE_PUBLISHABLE_KEY
+# Create a .env file and add your STRIPE_SECRET_KEY
 
 node src/server.js
