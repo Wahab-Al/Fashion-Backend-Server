@@ -1,4 +1,4 @@
-# 🛍️ Fashion-Payment-Gateway
+# 🛍️ Fashion-Payment-Gateway (⚠️WIP: Developing & Expanding LOCALLY⚠️)
 **A Dedicated Payment Service for Secure Stripe Integration**
 
 [![Postman Docs](https://img.shields.io/badge/Postman-Documentation-orange?style=for-the-badge&logo=postman)](https://documenter.getpostman.com/view/51361413/2sBXcBo3DA)
