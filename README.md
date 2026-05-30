@@ -15,7 +15,7 @@ A dedicated for handling Stripe payments, extracted from the main Fashion Store 
 [![dotenv](https://img.shields.io/badge/dotenv-Environment_Variables-yellow?logo=dotenv&logoColor=black)](https://github.com/motdotla/dotenv)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232088FF.svg?style=flat-square&logo=githubactions&logoColor=white)
 
-**Part of the [Fashion Store](https://github.com/Wahab-Al/Fashion) ecosystem.**
+**Part of the [Fashion Store](https://documenter.getpostman.com/view/51361413/2sBXcBo3DA) ecosystem.**
 
 ---
 
