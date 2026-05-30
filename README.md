@@ -1,4 +1,4 @@
-# Fashion-Payment-Gateway (⚠️WIP: Developing & Expanding LOCALLY⚠️)
+# Fashion-Payment-Gateway
 **A Dedicated Payment Service for Secure Stripe Integration**
 A dedicated for handling Stripe payments, extracted from the main Fashion Store backend.
 
